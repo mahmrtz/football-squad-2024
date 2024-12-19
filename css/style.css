@@ -1,0 +1,119 @@
+
+.players div img{
+    cursor: pointer;
+    border-radius: 20%;
+    width: 65px;
+    position: absolute;
+    transition: 0.5s;
+}
+
+
+.gk img{
+    top: 516px;
+    left: 182px;
+    background-color: black;
+    cursor: pointer;
+}
+
+.stadium img{
+    float: left;
+}
+
+
+.showPlayer img{
+    float: left;
+    width: 400px;
+    margin-left: 20px;
+}
+
+.lb img{
+    top: 420px;
+    left: 55px;
+}
+
+
+.lcb img{
+    top: 440px;
+    left: 140px;
+}
+
+
+.rcb img{
+    top: 440px;
+    left: 225px;
+}
+
+.rb img{
+    top: 420px;
+    left: 310px;
+}
+
+.def img{
+    background-color: green;
+}
+
+.mid img{
+    background-color: blue;
+}
+
+.att img{
+    background-color: red;
+}
+
+
+
+.lm img{
+    top: 290px;
+    height: 70px;
+    left: 70px
+}
+
+.cm img{
+    top: 260px;
+    left: 180px;
+    height: 70px;
+}
+
+.rm img{
+    top: 290px;
+    left: 290px;
+    height: 70px;
+}
+
+.lw img{
+    top: 140px;
+    left: 70px;
+}
+
+.st img{
+    top: 100px;
+    left: 180px;
+}
+
+.rw img{
+    top: 140px;
+    left: 290px;
+}
+
+
+.players img:hover{
+    width: 90px;
+    
+}
+
+.gk img:hover{
+    background-color: gray;
+}
+
+.def img:hover{
+    background-color: rgb(1, 84, 1);
+}
+
+.mid img:hover{
+    background-color: rgb(1, 1, 138);
+}
+
+
+.att img:hover{
+    background-color: rgb(168, 6, 6);
+}
